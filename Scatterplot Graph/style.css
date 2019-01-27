@@ -1,0 +1,55 @@
+html {
+  height: 100%;
+  background: -moz-linear-gradient(45deg, #99daff 0%, #008080 100%); /* ff3.6+ */
+  background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #99daff), color-stop(100%, #008080)); /* safari4+,chrome */
+  background: -webkit-linear-gradient(45deg, #99daff 0%, #008080 100%); /* safari5.1+,chrome10+ */
+  background: -o-linear-gradient(45deg, #99daff 0%, #008080 100%); /* opera 11.10+ */
+  background: -ms-linear-gradient(45deg, #99daff 0%, #008080 100%); /* ie10+ */
+  background: linear-gradient(45deg, #99daff 0%, #008080 100%); /* w3c */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#008080', endColorstr='#99DAFF',GradientType=1 ); /* ie6-9 */
+}
+
+body {
+  margin: 0;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  height: auto;
+  box-shadow: 1px 2px 15px #000;
+  overflow: auto;
+  margin: auto;
+  margin-top: 90px;
+  background: #c0eef1;
+}
+
+h1 {
+  font-family: "Courier New", Courier, monospace;
+}
+
+svg {
+  margin: 0 auto;
+}
+
+#title {
+  text-align: center;
+}
+
+div.tooltip {
+  position: absolute;
+  padding: 10px;
+  font: 12px sans-serif;
+  background: lightsteelblue;
+  border: 0px;
+  border-radius: 4px;
+  pointer-events: none;
+  box-shadow: 1px 2px 15px #000;
+}
+
+p#doping {
+  margin-bottom: 0;
+}

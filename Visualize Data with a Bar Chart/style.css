@@ -1,0 +1,53 @@
+html {
+	height:100%;
+	 /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e2e2e2+0,dbdbdb+50,d1d1d1+51,fefefe+100;Grey+Gloss+%231 */
+  background: #e2e2e2; /* Old browsers */
+  background: -moz-linear-gradient(45deg, #e2e2e2 0%, #dbdbdb 50%, #d1d1d1 51%, #fefefe 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg, #e2e2e2 0%, #dbdbdb 50%, #d1d1d1 51%, #fefefe 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg, #e2e2e2 0%, #dbdbdb 50%, #d1d1d1 51%, #fefefe 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#fefefe',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+body {
+  margin: 0;
+ 
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  height: 700px;
+  box-shadow: 1px 2px 15px #000;
+  overflow: auto;
+  margin: auto;
+  margin-top: 80px;
+  background-color: #ffffe6;
+}
+
+h1 {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+svg {
+  margin: 0 auto;
+}
+
+#title {
+  text-align: center;
+}
+
+div.tooltip {
+  position: absolute;
+  text-align: center;
+  width: 150px;
+  padding: 10px 0;
+  font: 16px sans-serif;
+  background: lightsteelblue;
+  border: 0px;
+  border-radius: 4px;
+  pointer-events: none;
+  box-shadow: 1px 2px 15px #000;
+}

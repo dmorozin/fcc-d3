@@ -1,0 +1,68 @@
+html {
+  height: 100%;
+  background: rgba(255, 232, 204, 1);
+  background: -moz-radial-gradient(center, ellipse cover, rgba(255, 232, 204, 1) 0%, rgba(255, 191, 112, 1) 100%);
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(255, 232, 204, 1)), color-stop(100%, rgba(255, 191, 112, 1)));
+  background: -webkit-radial-gradient(center, ellipse cover, rgba(255, 232, 204, 1) 0%, rgba(255, 191, 112, 1) 100%);
+  background: -o-radial-gradient(center, ellipse cover, rgba(255, 232, 204, 1) 0%, rgba(255, 191, 112, 1) 100%);
+  background: -ms-radial-gradient(center, ellipse cover, rgba(255, 232, 204, 1) 0%, rgba(255, 191, 112, 1) 100%);
+  background: radial-gradient(ellipse at center, rgba(255, 232, 204, 1) 0%, rgba(255, 191, 112, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffe8cc', endColorstr='#ffbf70', GradientType=1 );
+}
+
+body {
+  margin: 0;
+}
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  background-color: #fff7e6;
+  height: 650px;
+  box-shadow: 1px 2px 30px #805500;
+  margin-top: 80px;
+  overflow: auto;
+}
+
+svg {
+  margin: 0 auto;
+}
+
+#title {
+  text-align: center;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-weight: 200;
+}
+
+.d3-tip {
+  line-height: 1;
+  font: 13px sans-serif;
+  text-align: center;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.8);
+  box-shadow: 1px 2px 15px #000;
+  color: #fff;
+  border-radius: 4px;
+}
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 10px;
+  width: 100%;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.8);
+  content: "\25BC";
+  position: absolute;
+  text-align: center;
+}
+
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+}
