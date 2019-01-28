@@ -45,15 +45,3 @@ div.tooltip {
                                 supported by Chrome and Opera */
 }
 
-form {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  float: right;
-}
-
-label {
-  padding-right: 10px;
-}
-
-input {
-  margin: 0 7px;
-}

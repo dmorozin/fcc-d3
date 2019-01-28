@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+}
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  box-shadow: 1px 2px 15px #000;
+  margin: auto;
+  margin-top: 40px;
+  overflow: auto;
+}
+
+svg {
+  margin: 0 auto;
+}
+
+#title {
+  text-align: center;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-weight: 200;
+}
+
+div.tooltip {
+  position: absolute;
+  text-align: center;
+  padding: 10px;
+  font: 12px sans-serif;
+  background: #ffeb99;
+  border: 0px;
+  border-radius: 4px;
+  pointer-events: none;
+  box-shadow: 1px 2px 15px #000;
+}
+
+.counties {
+  fill: none;
+}
+
+.states {
+  fill: none;
+  stroke: #fff;
+  stroke-linejoin: round;
+}
